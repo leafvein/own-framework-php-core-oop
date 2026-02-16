@@ -193,7 +193,7 @@ If the testing results are satisfactory, commit and push your changes to the rem
 - [self::](https://stackoverflow.com/questions/151969)    
 - [Output Buffering in PHP](https://dev.to/kansoldev/output-buffering-in-php-33co)    
 
-**[⬇SOURCE CODE: Chapter 10](#)**
+**[⬇SOURCE CODE: Chapter 10](source_code/10)**
 
 <table align="center">
   <td>

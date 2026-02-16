@@ -49,8 +49,8 @@ Above command will create a `composer.json` file in the project root directory.
 **Edit `composer.json` file:**  
 ```json
 {
-    "name": "leafvein/own-framework-php-core",
-    "description": "Create Own Framework Using Core PHP OOP",
+    "name": "leafvein/own-framework-php-core-oop",
+    "description": "Create Own Framework Using PHP Core OOP",
     "type": "project",
     "require": {
         "php": ">=8.0"
@@ -312,7 +312,7 @@ Commit your changes and push to the remote repository.
 - [PSR-4](https://www.php-fig.org/psr/psr-4/)
 - [.gitignore](https://www.w3schools.com/git/git_ignore.asp)
 
-**[⬇SOURCE CODE: Chapter 05](#)**
+**[⬇SOURCE CODE: Chapter 05](source_code/05)**
 
 <table align="center">
   <td>

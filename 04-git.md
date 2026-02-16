@@ -74,7 +74,7 @@ To make a connection between your local and remote repository first of all you h
 - [git commit](https://www.w3schools.com/git/git_commit.asp)
 - [git branch](https://www.codecademy.com/learn/fscp-git-and-github-part-ii/modules/fscp-git-branching/cheatsheet)
 
-**[⬇SOURCE CODE: Chapter 04](#)**
+**[⬇SOURCE CODE: Chapter 04](source_code/04)**
 
 <table align="center">
   <td>

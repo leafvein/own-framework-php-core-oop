@@ -1,6 +1,6 @@
 {
-    "name": "leafvein/own-framework-php-core",
-    "description": "Create Own Framework Using Core PHP OOP",
+    "name": "leafvein/own-framework-php-core-oop",
+    "description": "Create Own Framework Using PHP Core OOP",
     "type": "project",
     "require": {
         "php": ">=8.0",

@@ -74,7 +74,7 @@ Advantages of front controller against page controller
 
 - In addition to the PHP application, the [front controller needs to be configured on the server end](https://dev.to/xxzeroxx/php-design-patterns-front-controller-jjo) as well.
 
-**[⬇SOURCE CODE: Chapter 02](#)**
+**[⬇SOURCE CODE: Chapter 02](source_code/02)**
 
 <table align="center">
   <td>

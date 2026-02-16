@@ -1460,7 +1460,7 @@ If the testing results are satisfactory, commit and push your changes to the rem
 - [password_verify()](https://www.php.net/manual/en/function.password-verify.php)
 - [session_destroy()](https://www.php.net/manual/en/function.session-destroy.php)
 
-**[⬇SOURCE CODE: Chapter 19](#)**    
+**[⬇SOURCE CODE: Chapter 19](source_code/19)**    
 
 <table align="center">
   <td>

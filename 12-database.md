@@ -64,6 +64,8 @@ To store and manage data, we will use a Database. In this application, we perfor
 > mysql -u root -p
 ```
 
+Alternatively, you can [install MySQL using Docker]((https://gist.github.com/johirpro/132639a3580033c14354e307beade6e8)).
+
 ## Install Database Client `adminer.php`
 To access and manage the MySQL server using a web-based GUI, we can use Adminer, which is a single-file PHP database client.    
 ```
@@ -73,9 +75,6 @@ To access and manage the MySQL server using a web-based GUI, we can use Adminer,
 # download the adminer file
 > curl -L -o adminer.php https://www.adminer.org/latest.php
 ```
-
-// TODO: 
-// Docker mysql server
 
 ## Create `server.php`
 We installed `adminer.php` in the public directory, but our application uses index.php as a front controller, so direct access to Adminer is blocked by the routing logic. Therefore, we use `server.php` as a URL rewriter / front controller override for PHP’s built-in server, which serves Adminer correctly as a static file.
@@ -278,7 +277,7 @@ If the testing results are satisfactory, commit and push your changes to the rem
 - [PDO](https://www.phptutorial.net/php-pdo/)    
 - [Singleton](https://refactoring.guru/design-patterns/singleton/php/example)    
 
-**[⬇SOURCE CODE: Chapter 12](#)**
+**[⬇SOURCE CODE: Chapter 12](source_code/12)**
 
 <table align="center">
   <td>

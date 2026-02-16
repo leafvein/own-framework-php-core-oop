@@ -158,8 +158,8 @@ Update `composer.json` file to autoload test classes:
 
 ```json
 {
-    "name": "leafvein/own-framework-php-core",
-    "description": "Create Own Framework Using Core PHP OOP",
+    "name": "leafvein/own-framework-php-core-oop",
+    "description": "Create Own Framework Using PHP Core OOP",
     "type": "project",
     "require": {
         "php": ">=8.0",
@@ -476,7 +476,7 @@ Therefore, update the `.gitignore` file as shown below:
 - [PHPUnit](https://phpunit.de/index.html)
 - [Database For Testing](https://laraveldaily.com/lesson/testing-laravel/db-configuration-refreshdatabase-phpunit-xml-env-testing)
 
-**[⬇SOURCE CODE: Chapter 22](#)**    
+**[⬇SOURCE CODE: Chapter 22](source_code/22)**    
 
 <table align="center">
   <td>

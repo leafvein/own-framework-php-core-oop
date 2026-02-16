@@ -421,7 +421,7 @@ The `.env` file will contain sensitive environment variables, so it should not b
 - [Array destructuring](https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.destructuring)
 - [Static methods](https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.methods)
 
-**[⬇SOURCE CODE: Chapter 07](#)**
+**[⬇SOURCE CODE: Chapter 07](source_code/07)**
 
 <table align="center">
   <td>

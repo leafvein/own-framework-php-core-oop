@@ -164,7 +164,7 @@ Make sure server is running or go to the project-root directory and run command 
 
 [Throwing exception](https://www.w3schools.com/php/php_exception.asp):
 
-**[⬇SOURCE CODE: Chapter 03](#)**
+**[⬇SOURCE CODE: Chapter 03](source_code/03)**
 
 <table align="center">
   <td>

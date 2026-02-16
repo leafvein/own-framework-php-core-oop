@@ -276,7 +276,7 @@ If the testing results are satisfactory, commit and push your changes to the rem
 - [PHP Error Types](https://www.qodo.ai/blog/what-are-common-php-error-types-warnings-notices-fatal-errors/)
 - [Front Controller Pattern](https://stackoverflow.com/questions/20277102)
 
-**[⬇SOURCE CODE: Chapter 06](#)**
+**[⬇SOURCE CODE: Chapter 06](source_code/06)**
 
 <table align="center">
   <td>

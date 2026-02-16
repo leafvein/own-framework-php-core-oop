@@ -20,10 +20,109 @@ project-root/
 ```
 
 <details>
-<summary>See final project directory structure</summary>
+<summary>See the final project directory structure</summary>
 
 ```
-CODE!
+project-root
+├── app/
+│   ├── Controllers/
+│   │   ├── Api/
+│   │   │   └── UserController.php
+│   │   ├── AuthController.php
+│   │   ├── EmailVerificationController.php
+│   │   ├── HomeController.php
+│   │   └── UserController.php
+│   ├── Core/
+│   │   ├── Abstract/
+│   │   │   ├── Migration.php
+│   │   │   ├── Model.php
+│   │   │   └── Seeder.php
+│   │   ├── App.php
+│   │   ├── Bootstrap.php
+│   │   ├── Config.php
+│   │   ├── Database.php
+│   │   ├── Env.php
+│   │   ├── ExceptionHandler.php
+│   │   ├── Mailer.php
+│   │   ├── Request.php
+│   │   ├── Response.php
+│   │   ├── Router.php
+│   │   └── Validator.php
+│   ├── Helpers/
+│   │   └── helpers.php
+│   ├── Models/
+│   │   ├── EmailQueue.php
+│   │   ├── EmailVerification.php
+│   │   └── User.php
+│   ├── Queue/
+│   │   └── MailQueue.php
+│   └── Services/
+│       └── EmailVerificationService.php
+├── composer.json
+├── composer.lock
+├── config/
+│   ├── app.php
+│   ├── database.php
+│   └── mail.php
+├── database/
+│   ├── Migrations/
+│   │   ├── 2026_01_10_create_users_table.php
+│   │   ├── 2026_01_18_create_email_queue_table.php
+│   │   ├── 2026_01_18_create_email_verifications_table.php
+│   │   ├── 2026_01_19_add_password_to_users_table.php
+│   │   └── 2026_01_19_add_verified_column_to_users_table.php
+│   └── Seeders/
+│       └── UserSeeder.php
+├── .env
+├── .env.testing
+├── .gitignore
+├── migration.php
+├── .phpunit.result.cache
+├── phpunit.xml
+├── public/
+│   ├── adminer.php
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   │   └── welcome.png
+│   ├── index.php
+│   └── scripts/
+│       └── app.js
+├── queue.php
+├── routes/
+│   ├── api.php
+│   └── web.php
+├── seeder.php
+├── server.php
+├── tests/
+│   ├── Bootstrap.php
+│   ├── Database/
+│   │   ├── DatabaseConnectionTest.php
+│   │   ├── MigrationTest.php
+│   │   ├── Seeders/
+│   │   │   └── UserSeeder.php
+│   │   ├── SeederTest.php
+│   │   └── UserModelTest.php
+│   ├── DatabaseTestCase.php
+│   ├── Feature/
+│   │   └── HomePageTest.php
+│   └── Unit/
+│       ├── ConfigTest.php
+│       ├── EnvTest.php
+│       ├── RequestTest.php
+│       ├── RouterTest.php
+│       └── ValidatorTest.php
+├── vendor/
+└── views/
+    ├── auth/
+    │   └── login.php
+    ├── home.php
+    ├── layout.php
+    └── user/
+        ├── edit.php
+        ├── register.php
+        └── show.php
+
 ```
 </details>    
 <br>
@@ -50,7 +149,7 @@ So, let’s start to build the `project-root` directory first, then create `publ
 > 
 > `app`: all project related class will go here
 
-**[⬇SOURCE CODE: Chapter 01](#)**
+**[⬇SOURCE CODE: Chapter 01](source_code/01)**
 
 <table align="center">
   <td>
