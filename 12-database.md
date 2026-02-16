@@ -64,7 +64,7 @@ To store and manage data, we will use a Database. In this application, we perfor
 > mysql -u root -p
 ```
 
-Alternatively, you can [install MySQL using Docker]((https://gist.github.com/johirpro/132639a3580033c14354e307beade6e8)).
+Alternatively, you can [install MySQL using Docker](https://gist.github.com/johirpro/132639a3580033c14354e307beade6e8).
 
 ## Install Database Client `adminer.php`
 To access and manage the MySQL server using a web-based GUI, we can use Adminer, which is a single-file PHP database client.    
