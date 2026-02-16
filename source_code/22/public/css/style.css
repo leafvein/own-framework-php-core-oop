@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #eee;
+}
+
+.flash_message {
+    padding: 10px;
+    background: #ee9;
+}
+
+.banner {
+    border: solid 1px #ccc;
+}
+
+.content-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 60px;
+    min-height: 100vh;
+    background: #bee;
+
+    display: flex;
+    flex-direction: column;
+}
+
+input[readonly] {
+    background: #eee;
+    border: none;
+}
+
+nav {
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+.logout-form {
+    display: inline;
+}
+
+.logout-link {
+    background: none;
+    border: none;
+    padding: 0;
+    color: blue;
+    text-decoration: underline;
+    font-family: serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    flex: 1;
+}
+
+input, button {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+.error {
+    color:red; 
+    margin-top:10px
+}

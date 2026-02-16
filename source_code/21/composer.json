@@ -1,0 +1,16 @@
+{
+    "name": "leafvein/own-framework-php-core",
+    "description": "Create Own Framework Using Core PHP OOP",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
